@@ -1,0 +1,166 @@
+[
+  {
+    "description": "    As a user\n    I want to reset password",
+    "elements": [
+      {
+        "id": "forgot-password;user-success-to-receive-reset-password-email",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User success to receive reset password email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse forgot password page",
+            "result": {
+              "status": "passed",
+              "duration": 1490100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email for forgot password",
+            "result": {
+              "status": "passed",
+              "duration": 936300
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click reset password button",
+            "result": {
+              "status": "passed",
+              "duration": 493200
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user see system sent reset password email notification",
+            "result": {
+              "status": "passed",
+              "duration": 201600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user access gmail login page",
+            "result": {
+              "status": "passed",
+              "duration": 687600
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill google mail",
+            "result": {
+              "status": "passed",
+              "duration": 390000
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user click berikutnya",
+            "result": {
+              "status": "passed",
+              "duration": 350300
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill mail Password",
+            "result": {
+              "status": "passed",
+              "duration": 368900
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click berikutnya button",
+            "result": {
+              "status": "passed",
+              "duration": 215000
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see email from gameQoo",
+            "result": {
+              "status": "passed",
+              "duration": 167800
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\step-definitions\\forgot-password-steps.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 60004049900,
+              "error_message": "function timed out after 60000 milliseconds"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\aerefabdrrchman\\gameQoo\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "forgot-password",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Forgot Password",
+    "tags": [],
+    "uri": "C:\\aerefabdrrchman\\gameQoo\\features\\forgot-password.feature"
+  }
+]

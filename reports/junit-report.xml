@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="forgot-password;user-success-to-receive-reset-password-email" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\aerefabdrrchman\gameQoo\features\forgot-password.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse forgot password page" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0014901">
+        </testcase>
+        <testcase name="And user fill email for forgot password" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0009363">
+        </testcase>
+        <testcase name="And user click reset password button" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0004932">
+        </testcase>
+        <testcase name="And user see system sent reset password email notification" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0002016">
+        </testcase>
+        <testcase name="And user access gmail login page" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0006876">
+        </testcase>
+        <testcase name="And user fill google mail" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.00039">
+        </testcase>
+        <testcase name="And user click berikutnya" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0003503">
+        </testcase>
+        <testcase name="And user fill mail Password" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0003689">
+        </testcase>
+        <testcase name="When user click berikutnya button" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.000215">
+        </testcase>
+        <testcase name="Then user can see email from gameQoo" classname="forgot-password;user-success-to-receive-reset-password-email" time="0.0001678">
+        </testcase>
+    </testsuite>
+</testsuites>
