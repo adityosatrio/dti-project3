@@ -1,13 +1,13 @@
 module.exports = function () {
     //steps no.1
-    this.Given(/^user fill email field with wrong username$/, function () {
+    this.Given(/^user fill email field with invalid username$/, function () {
         driver.sleep(2000).then(function(){
             return page.loginFillWrongEmail.performFill()
         })
     });
 
     //steps no.2
-    this.Given(/^user fill password field with right password$/, function () {
+    this.Given(/^user fill password field with valid password$/, function () {
         driver.sleep(2000).then(function(){
             return page.loginFillPassword.performFill()
         })
